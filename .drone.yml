@@ -1,6 +1,6 @@
 workspace:
   base: /go
-  path: src/github.com/maksmiles/smart-logic
+  path: src/github.com/maksmiles/project
 
 pipeline:
   build:
@@ -9,4 +9,3 @@ pipeline:
       - go get ./...
       - go test
       - go build -o application
-      - ./application &
